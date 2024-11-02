@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Vite App</title>
+    <script src="/src/main.js" type="module"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Work+Sans&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Work+Sans&display=swap"
+          rel="stylesheet">
+</head>
+<body class="flex items-center justify-center">
+<main class="flex flex-col max-w-[328px] md:max-w-full md:flex-row md:max-h-[285px]">
+    <div class="overflow-hidden flex-shrink-0 rounded-t-lg w-[328px] h-[200px] md:aspect-[1/1] md:w-[285px] md:h-[280px] md:rounded-tr-none md:rounded-l-lg">
+        <img alt="Picture of a bedside drawer"
+             class="w-full h-full object-cover object-left"
+             src="/images/drawers.jpg">
+    </div>
+    <div class="relative max-w-[444px] bg-white rounded-bl-lg rounded-br-lg md:rounded-bl-none">
+        <div class="px-8 md:px-10"><h1 class="mt-9 md:mt-8 md:text-xl my-3 tracking-[0.5px] md:tracking-[0.6px]">
+            Shift the overall look and feel by adding these wonderful
+            touches to furniture in your home
+        </h1>
+            <p class="text-[13px] tracking-[0.2px] leading-5">
+                Ever been in a room and felt like something was missing? Perhaps
+                it felt slightly bare and uninviting. I’ve got some simple tips
+                to help you make any room feel complete.
+            </p></div>
+        <div class="px-8 md:px-10 pt-8 pb-5 md:pt-5 rounded-bl-lg relative flex justify-between items-center"
+             id="article-meta">
+            <article class="flex gap-x-4">
+                <div class="rounded-full w-[40px] h-[40px] overflow-hidden">
+                    <img alt="Michelle's profile picture"
+                         class="object-cover w-full"
+                         src="/images/avatar-michelle.jpg">
+                </div>
+                <div>
+                    <p class="text-[13px] font-bold tracking-[0.1px]">Michelle Appleton</p>
+                    <p class="text-[13px] font-medium">28 Jun 2020</p>
+                </div>
+            </article>
+            <button class="w-8 h-8 rounded-full bg-slate-200" id="share-pc">
+                <i aria-hidden="true"
+                   class="inline-block svg-public--icon--icon-share svg-public--icon--icon-share-dims"></i>
+            </button>
+        </div>
+        <div class="flex justify-between items-center hidden mt-5 px-8 py-4 rounded-b-lg md:mt-0 md:absolute md:py-[15px] md:px-[37px] md:right-[-70px] bg-[#48556a] md:top-[128px] md:rounded-xl"
+             id="popover">
+            <div>
+                <span
+                    class="uppercase text-xs leading-normal tracking-[5.5px] inline-block mb-1 text-[#9eafc2]">Share</span>
+                <span>
+                <i aria-hidden="true"
+                   class="inline-block ml-[14px] mr-[11px] align-middle mt-[-1px] svg-public--icon--icon-facebook svg-public--icon--icon-facebook-dims"></i>
+                    <i aria-hidden="true"
+                       class="inline-block mr-[14px] align-middle mt-[-1px] svg-public--icon--icon-twitter svg-public--icon--icon-twitter-dims"></i>
+                    <i aria-hidden="true"
+                       class="inline-block align-middle mt-[-1px] svg-public--icon--icon-pinterest svg-public--icon--icon-pinterest-dims"></i>
+                </span>
+            </div>
+            <button class="w-8 h-8 rounded-full md:hidden bg-[#6d7f97]" id="share-mobile">
+                <i aria-hidden="true"
+                   class="inline-block svg-public--icon--icon-share-white svg-public--icon--icon-share-white-dims"></i>
+            </button>
+        </div>
+    </div>
+</main>
+</body>
+</html>
